@@ -2,4 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: red;
+}
+.card{
+    height:150px;
+    width:800px;
+    border: 2px solid black;
+    margin:30px 30px;
+    padding: 10px;
+    background-color: crimson;
+    font-family: sans-serif;
+}
+.card h1 {
+    background-color: crimson;
+}
+.card p {
+    background-color: crimson;
+}
+/*Scroll bar section*/
+::-webkit-scrollbar{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(0deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 10px;
 }
